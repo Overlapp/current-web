@@ -14,9 +14,6 @@ const Home: NextPage = () => {
 
     const lang = locale === "id" ? en : en
 
-    const emailHandler = () => {
-        window.open("mailto:hello@letsoverlapp.com")
-    }
     return (
         <Fragment>
             <Meta title="Overlapp" />
