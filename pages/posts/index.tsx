@@ -26,14 +26,13 @@ const Posts: NextPage = ({ posts }: any) => {
                                 </ParagraphText>
                             </div>
                         </div>
-                        <div className="md:flex-row flex flex-col-reverse">
+                        <div className="blogs md:flex-row flex flex-col ">
                             {posts.map((post: any, idx: number) => (
                                 <PostCard
                                     key={idx}
                                     imagePath={post.frontMatter.imageUrl}
                                     postId={post.postId}
                                     title={post.frontMatter.title}
-                                    // description={post.frontMatter.description}
                                     category={post.frontMatter.category}
                                 />
                             ))}

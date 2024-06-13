@@ -16,7 +16,7 @@ const PostCard: React.FC<IPostCard> = ({ imagePath, postId, title }) => {
                         </span>
                     </div> */}
                 </div>
-                <div className="h-40 flex flex-col">
+                <div className="h-40 flex flex-col flex">
                     <div className="bg-white p-5 rounded-2xl shadow-lg">
                         <h4 className="text-xl font-gilroy-bold leading-tight">{title}</h4>
                         {/* <div className="mt-1 mb-4">
@@ -34,4 +34,5 @@ const PostCard: React.FC<IPostCard> = ({ imagePath, postId, title }) => {
 }
 
 export default PostCard
+
 

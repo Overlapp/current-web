@@ -66,7 +66,7 @@ const Navigation: React.FC = () => {
                                                         Cookies
                                                     </motion.p>
                                                 </Link>
-                                                <Link href="mailto:hello@letsoverlapp.com">
+                                                {/* <Link href="mailto:hello@letsoverlapp.com">
                                                     <motion.p
                                                         initial={{ opacity: 0, translateY: -40 }}
                                                         animate={{ opacity: 1, translateY: 0 }}
@@ -76,7 +76,7 @@ const Navigation: React.FC = () => {
                                                     >
                                                         Contact
                                                     </motion.p>
-                                                </Link>
+                                                </Link> */}
                                             </div>
                                         </div>
                                     </div>

@@ -339,6 +339,11 @@ nav {
         margin-top: 0.5rem;
         margin-bottom: 2.5rem;
     }
+
+    .blogs {
+        display: flex;
+       flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 800px) {
