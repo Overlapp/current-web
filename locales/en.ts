@@ -2,9 +2,10 @@
 export default {
     // Header Section
     greeting: "Is your fun a mess?",
-    greeting2: "Turning your forgotten bookmarks and jumbled",
-    greeting3: "map pins into",
-    greeting4: "connections!",
+    greeting2: "Turning your forgotten",
+    greeting3: "bookmarks and jumbled",
+    greeting4: "map pins into",
+    greeting5: "connections!",
     email: "Discover",
     background: "Welcome to Overlapp!",
     ourvision: "Our Vision",

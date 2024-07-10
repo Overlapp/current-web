@@ -229,27 +229,26 @@ nav {
     .nav-link {
         margin: 1em 0.5em;
     }
+
+    .video-container {
+    margin-left: 70rem;
+    margin-top: -18rem;
+  }
 }
 
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+@media (max-width: 824px) {
+    .video-container {
+        margin-top: -10rem;
+        margin-left: 1.4rem;
+  }
 }
 
-.video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
+
 
 /* FORM */
 
 .form-container {
-    margin-top: -7rem;
+    margin-top: -16.2rem;
     color: white;
 }
 
