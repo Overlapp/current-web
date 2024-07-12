@@ -22,24 +22,37 @@ const Navigation: React.FC = () => {
                                     <div className="section">
                                         <div>
                                             <div className="footer__socials">
-                                                <Link id="blog-link" href="/posts">
-                                                    <motion.p
-                                                        initial={{ opacity: 0, translateY: -40 }}
-                                                        animate={{ opacity: 1, translateY: 0 }}
-                                                        transition={{ duration: 0.4 }}
-                                                        className="nav-link"
-                                                        id="nav-1"
-                                                    >
-                                                        Blog
-                                                    </motion.p>
-                                                </Link>
+                                                <div className="main-links">
+                                                    <Link id="blog-link" href="/posts">
+                                                        <motion.p
+                                                            initial={{ opacity: 0, translateY: -40 }}
+                                                            animate={{ opacity: 1, translateY: 0 }}
+                                                            transition={{ duration: 0.4 }}
+                                                            className="nav-link"
+                                                            id="nav-1"
+                                                        >
+                                                            Blog
+                                                        </motion.p>
+                                                    </Link>
+                                                    <Link id="demo-link"  href="/demo">
+                                                        <motion.p
+                                                            initial={{ opacity: 0, translateY: -40 }}
+                                                            animate={{ opacity: 1, translateY: 0 }}
+                                                            transition={{ duration: 0.4 }}
+                                                            className="nav-link"
+                                                            id="nav-1"
+                                                        >
+                                                            Demo
+                                                        </motion.p>
+                                                    </Link>
+                                                </div>
                                                 <Link href="https://app.termly.io/document/privacy-policy/d1aba773-0491-446b-b739-f3af98f29836">
                                                     <motion.p
                                                         initial={{ opacity: 0, translateY: -40 }}
                                                         animate={{ opacity: 1, translateY: 0 }}
                                                         transition={{ duration: 0.4 }}
                                                         className="nav-link"
-                                                        id="nav-2"
+                                                        id="nav-3"
                                                     >
                                                         Privacy
                                                     </motion.p>
@@ -50,7 +63,7 @@ const Navigation: React.FC = () => {
                                                         animate={{ opacity: 1, translateY: 0 }}
                                                         transition={{ duration: 0.4 }}
                                                         className="nav-link"
-                                                        id="nav-3"
+                                                        id="nav-4"
                                                     >
                                                         Terms of Use
                                                     </motion.p>
@@ -61,7 +74,7 @@ const Navigation: React.FC = () => {
                                                         animate={{ opacity: 1, translateY: 0 }}
                                                         transition={{ duration: 0.4 }}
                                                         className="nav-link"
-                                                        id="nav-4"
+                                                        id="nav-5"
                                                     >
                                                         Cookies
                                                     </motion.p>
@@ -99,4 +112,8 @@ const Navigation: React.FC = () => {
 }
 
 export default Navigation
+
+
+
+
 

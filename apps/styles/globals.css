@@ -22,6 +22,18 @@
     .register {
         background-position: center;
     }
+    
+    #blog-link {
+        margin: 40px;
+  white-space: pre;
+  margin-left: -3.5rem;
+    }
+
+    #demo-link {
+        margin-left: -11rem;
+        text-align: center;
+    }
+
 }
 
 @import "components.css";
@@ -128,35 +140,19 @@ input[type="number"] {
 }
 
 #nav-2:hover {
-    --d: 48%;
+    --d: 38%;
 }
 
 #nav-3:hover {
-    --d: 61%;
+    --d: 49%;
 }
 
 #nav-4:hover {
-    --d: 49%;
+    --d: 62%;
 }
 
 #nav-5:hover {
     --d: 50%;
-}
-
-.blog-link {
-    color: #beabff;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 17px;
-    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 3px no-repeat;
-    transition: 0.5s;
-}
-
-.blog-link:hover {
-    color: #8d72ef;
-    --d: 100%;
 }
 
 @media (min-width: 650px) {
@@ -222,17 +218,19 @@ nav {
 }
 
 @media (min-width: 800px) {
-    .nav-item {
-        margin: 0 1em;
-    }
-
-    .nav-link {
-        margin: 1em 0.5em;
-    }
-
-    .video-container {
+.video-container {
     margin-left: 70rem;
     margin-top: -18rem;
+  }
+
+  .main-links {
+    display: inline;
+  }
+
+  .video-container-demo {
+    margin-left: 70rem;
+    margin-top: -47rem;
+    padding-bottom: 10rem;
   }
 }
 
@@ -241,11 +239,21 @@ nav {
         margin-top: -10rem;
         margin-left: 1.4rem;
   }
+
+  .video-container-demo {
+    margin-top: -9rem;
+    margin-bottom: 2rem;
+    margin-left: 1.4rem;
+  }
 }
 
 
 
 /* FORM */
+
+.form-vid {
+    margin-top: -2rem;
+}
 
 .form-container {
     margin-top: -16.2rem;
@@ -276,7 +284,7 @@ nav {
     }
 
     .form-container {
-        margin-top: 2rem;
+        margin-top: 0rem;
         color: white;
     }
 
@@ -328,9 +336,10 @@ nav {
     }
 
     #nav-1 {
-        display: flex;
-        margin-right: -1rem;
+        display: inline;
+        margin: -2.5rem;
     }
+
 
     .bpt-links {
         text-align: center;
@@ -467,4 +476,3 @@ footer {
 .socials__fixed-icon:hover {
     color: #ab8df0;
 }
-

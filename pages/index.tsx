@@ -19,8 +19,8 @@ const Home: NextPage = () => {
             <Meta title="Overlapp" />
 
             <PagesLayout>
-                <div className="w-full bg-neutral-10 dark:bg-primary-pressed md:pt-8 -mb-8">
-                    <div className="max-w-[1440px] mx-auto px-6 md:px-24 pt-14 md:pt-28 md:pb-10 pb-48 flex flex-col md:flex-row justify-between">
+                <div className="form-vid w-full bg-neutral-10 dark:bg-primary-pressed md:pt-8 pt-12">
+                    <div className="max-w-[1440px] mx-auto px-6 md:px-24 md:pt-28 md:pb-10 pb-48 flex flex-col md:flex-row justify-between">
                         <div className="topping">
                             <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center md:text-left pt-56 text-3xl md:text-7xl">
                                 {lang.greeting}
@@ -40,7 +40,6 @@ const Home: NextPage = () => {
                         <VideoEmbed embedId="mtGPU6z-mCc" />
                     </div>
                 </div>
-
                 <Form />
             </PagesLayout>
             <Footer />
