@@ -12,6 +12,9 @@ const Home: NextPage = () => {
         <Fragment>
             <Meta title="Overlapp" />
             <PagesLayout>
+                <div className="video-container-demo">
+                    <VideoEmbed embedId="mtGPU6z-mCc" />
+                </div>
                 <div className="form-vid w-full bg-neutral-10 dark:bg-primary-pressed md:pt-8 -mb-8">
                     <div className="max-w-[1440px] mx-auto px-6 md:px-24 pt-14 md:pt-28 md:pb-10 pb-48 pt-24 flex flex-col md:flex-row justify-between">
                         <div className="topping">
@@ -40,7 +43,6 @@ const Home: NextPage = () => {
                                 <br></br>
                                 <br></br>- Age range: - Under 18 - 18-24 - 25-29 - 30-34 - 35-39 - 40-49 - 50-59 - 60+
                                 <br></br>
-                                <br></br>- Name
                                 <br></br>
                                 <br></br>- Add your email for early access and the latest updates!
                                 <br></br>
@@ -48,9 +50,6 @@ const Home: NextPage = () => {
                                 **Thank you for your time and feedback!**
                             </p>
                         </div>
-                    </div>
-                    <div className="video-container-demo">
-                        <VideoEmbed embedId="mtGPU6z-mCc" />
                     </div>
                 </div>
             </PagesLayout>
