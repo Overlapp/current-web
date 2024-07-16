@@ -16,7 +16,7 @@ function Welcome() {
                                 <br></br>
                                 <br></br>
                                 <div className="App">
-                                    <VideoEmbed embedId="watch?v=S7ryxFtkyww" />
+                                    <VideoEmbed embedId="S7ryxFtkyww" />
                                 </div>
                             </h2>
                         </div>

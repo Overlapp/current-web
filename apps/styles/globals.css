@@ -2,7 +2,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Gilroy", sans-serif;
-    /* position: static; */
 }
 
 .login {
@@ -33,12 +32,6 @@
         margin-left: -11rem;
         text-align: center;
     }
-
-    .video-container-demo  {
-        
-    }
-
-
 }
 
 @import "components.css";

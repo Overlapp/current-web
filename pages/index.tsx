@@ -8,6 +8,7 @@ import Form from "@components/Form"
 import Footer from "@components/organism/Footer"
 import en from "@locales/en"
 
+
 const Home: NextPage = () => {
     const router = useRouter()
     const { locale } = router
@@ -48,6 +49,7 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
 
 
 

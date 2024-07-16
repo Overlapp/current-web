@@ -4,8 +4,16 @@ import VideoEmbed from "../apps/components/VideoEmbed"
 import { Meta } from "@modules/Meta"
 import PagesLayout from "@layouts/PagesLayout"
 import Footer from "@components/organism/Footer"
+import formbricks from "@formbricks/js/website"
 
-const Home: NextPage = () => {
+if (typeof window !== "undefined") {
+    formbricks.init({
+        environmentId: "clynnkesd0007y5gsmdz5d94i",
+        apiHost: "https://app.formbricks.com",
+    })
+}
+
+const Demo: NextPage = () => {
 
 
     return (
@@ -13,7 +21,7 @@ const Home: NextPage = () => {
             <Meta title="Overlapp" />
             <PagesLayout>
                 <div className="video-container-demo">
-                    <VideoEmbed embedId="watch?v=S7ryxFtkyww" />
+                    <VideoEmbed embedId="S7ryxFtkyww" />
                 </div>
                 <div className="form-vid w-full bg-neutral-10 dark:bg-primary-pressed md:pt-8 -mb-8">
                     <div className="max-w-[1440px] mx-auto px-6 md:px-24 pt-14 md:pt-28 md:pb-10 pb-48 pt-24 flex flex-col md:flex-row justify-between">
@@ -58,4 +66,4 @@ const Home: NextPage = () => {
     )
 }
 
-export default Home
+export default Demo
