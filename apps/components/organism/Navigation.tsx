@@ -34,7 +34,7 @@ const Navigation: React.FC = () => {
                                                             Blog
                                                         </motion.p>
                                                     </Link>
-                                                    {/* <Link id="demo-link"  href="/demo">
+                                                    <Link id="demo-link"  href="/demo">
                                                         <motion.p
                                                             initial={{ opacity: 0, translateY: -40 }}
                                                             animate={{ opacity: 1, translateY: 0 }}
@@ -44,7 +44,7 @@ const Navigation: React.FC = () => {
                                                         >
                                                             Demo
                                                         </motion.p>
-                                                    </Link> */}
+                                                    </Link>
                                                 </div>
                                                 <Link href="https://app.termly.io/document/privacy-policy/d1aba773-0491-446b-b739-f3af98f29836">
                                                     <motion.p

@@ -226,9 +226,16 @@ nav {
   }
 
   .video-container-demo {
-    margin-left: 70rem;
-    margin-top: -47rem;
-    padding-bottom: 10rem;
+    padding-left: 10rem;
+    margin-top: 2rem;
+  }
+
+  .demo {
+    display: inline-flex;
+    margin-left: 10rem;
+    width: 100%;
+    padding-bottom: 7.9rem;
+    margin-top: 4rem;
   }
 }
 
@@ -238,13 +245,11 @@ nav {
         margin-left: 1.4rem;
   }
 
-  .video-container-demo {
+  .demo {
     margin-left: 1.4rem;
-    padding-bottom: 1.9rem;
+    padding-top: 1.9rem;
   }
 }
-
-
 
 /* FORM */
 
