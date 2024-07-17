@@ -1,3 +1,5 @@
+// @ts-ignore
+
 import { Fragment } from "react"
 import type { NextPage } from "next"
 import VideoEmbed from "../apps/components/VideoEmbed"
@@ -12,7 +14,7 @@ const Demo: NextPage = () => {
             <PagesLayout>
                 <div className="demo">
                     <VideoEmbed embedId="mtGPU6z-mCc" />
-                    <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" width="100%" height="500" frameborder="0" style={{ border: "none" }} title="Contact Form"></iframe>
+                    <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" width="100%" height="500" style={{ border: "none" }} title="Contact Form"></iframe>
                 </div>
             </PagesLayout>
             <Footer />
