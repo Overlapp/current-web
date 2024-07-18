@@ -226,24 +226,21 @@ nav {
   }
 
   .video-container-demo {
-    padding-left: 10rem;
-    margin-top: 2rem;
-  }
-
-  .demo {
-    display: inline-flex;
-    margin-left: 10rem;
-    width: 100%;
-    padding-bottom: 7.9rem;
-    margin-top: 21.5rem;
+   width: 100%;
+   padding-top: 16.5rem;
+   padding-left: 20rem;
   }
 
   .formbrick {
-    padding-top: 3rem; 
+    padding-top: 1rem;
+    width:20%;
+    margin-left: 41rem;
+    padding-bottom: 2rem;
   }
 
   .demo-text {
-    width: 40%;
+    width: 100%;
+    margin-top: -13rem;
   }
 }
 @media (max-width: 824px) {
