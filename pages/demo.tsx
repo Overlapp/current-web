@@ -15,7 +15,7 @@ const Demo: NextPage = () => {
                         <VideoEmbed embedId="S7ryxFtkyww" />
                     </div>
                     <p className="demo-text md:pt-60 text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
-                        Thanks for watching our demo!
+                        Thanks for watching our demo!<br></br>
                         We'd love to hear your thoughts
                         and feedback to make Overlapp
                         even better.

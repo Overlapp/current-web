@@ -89,25 +89,6 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* Firefox */
-
-input[type="number"] {
-    -moz-appearance: textfield;
-}
-
-.mySwiper {
-    width: 650px;
-}
-
-#about {
-    margin-top: -80px;
-}
-
-#projects {
-    color: #3b3b3c;
-    background: #eaf2fa;
-}
-
 /* --- NAVIGATION --- */
 
 .nav-link {
@@ -226,37 +207,32 @@ nav {
   }
 
   .video-container-demo {
-   width: 100%;
-   padding-top: 16.5rem;
-   padding-left: 20rem;
+    padding-top: 18rem;
+    margin-left: 40.3rem;
   }
 
   .formbrick {
-    padding-top: 1rem;
-    width:20%;
-    margin-left: 41rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem; 
   }
 
   .demo-text {
-    width: 100%;
-    margin-top: -13rem;
+    text-align: center;
+    margin-top: -12rem;
   }
 }
 @media (max-width: 824px) {
-    .video-container {
-        margin-top: -10rem;
+    .video-container-demo {
         margin-left: 1.4rem;
   }
 
-  .demo {
-    margin-left: 1.4rem;
-    padding-top: 1.9rem;
+  .video-container {
+    margin-top: -11rem;
+    margin-left: 1.3rem;
+    padding-bottom: 1.3rem;
   }
 
   .formbrick {
     padding: 1.5rem;
-    margin-right: 1rem;
   }
 }
 
