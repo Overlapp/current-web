@@ -21,16 +21,17 @@
     .register {
         background-position: center;
     }
+
+    .main-links {
+        margin-top: 50px;
+    }
     
     #blog-link {
-        margin: 40px;
-  white-space: pre;
-  margin-left: -3.5rem;
+     margin-left: 10px;
     }
 
     #demo-link {
-        margin-left: -11rem;
-        text-align: center;
+        margin-left: 40px;
     }
 }
 
@@ -221,14 +222,18 @@ nav {
   }
 }
 @media (max-width: 824px) {
-    .video-container-demo {
-        margin-left: 1.4rem;
+  .video-container-demo {
+        margin-left: 1.9rem;
   }
 
   .video-container {
     margin-top: -11rem;
-    margin-left: 1.3rem;
+    margin-left: 1.7rem;
     padding-bottom: 1.3rem;
+  }
+
+  .demo-text {
+    padding-left: 1.8rem;
   }
 
   .formbrick {
