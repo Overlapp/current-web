@@ -137,27 +137,6 @@ input::-webkit-inner-spin-button {
     --d: 50%;
 }
 
-@media (min-width: 650px) {
-    .navigation-content {
-        display: block;
-        position: relative;
-        width: 100%;
-        height: initial;
-        margin-top: 0;
-        border-radius: 0;
-        padding: 1em;
-    }
-
-    .nav-container {
-        margin: 0;
-        display: block;
-    }
-
-    .toggle-container {
-        display: none;
-    }
-}
-
 nav {
     width: 100%;
     position: relative;
@@ -176,7 +155,8 @@ nav {
 @media (max-width: 926px) {
     nav {
         padding-top: 3.5rem;
-        font-size: 2rem;
+        font-size: 3rem;
+        padding-right: 1rem;
     }
 }
 
