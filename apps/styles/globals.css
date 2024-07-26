@@ -329,7 +329,6 @@ nav {
     }
 
     .blogs {
-        display: flex;
        flex-direction: column-reverse;
     }
 }
