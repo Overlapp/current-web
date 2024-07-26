@@ -158,6 +158,12 @@ nav {
         font-size: 3rem;
         padding-right: 1rem;
     }
+
+    .share-buttons-mobile {
+        margin-top: -2rem;
+        padding: 2.1rem;
+        text-align: center;
+    }
 }
 
 @media (min-width: 650px) {
