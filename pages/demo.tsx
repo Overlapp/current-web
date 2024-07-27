@@ -11,15 +11,14 @@ const Demo: NextPage = () => {
         <Fragment>
             <Meta title="Overlapp" />
             <PagesLayout>
-                <p className="demo-text md:pt-60  text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
-                    Check out our demo and share your thoughts below! 👀👇
-                </p>
-
                 <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
+                    <p className="demo-text md:pt-60 text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
+                        Check out our demo and share your thoughts below! 👀👇
+                    </p>
                     <div className="video-container-demo">
                         <VideoEmbed embedId="S7ryxFtkyww" />
                     </div>
-                    <p className="demo-text md:pt-60  text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
+                    <p className="demo-text md:pt-60 text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
                         <br></br>
                         Feel free to share!
                     </p>

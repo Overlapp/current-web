@@ -8,31 +8,29 @@ import Form from "@components/Form"
 import Footer from "@components/organism/Footer"
 import en from "@locales/en"
 
-
 const Home: NextPage = () => {
     const router = useRouter()
     const { locale } = router
 
-    const lang = locale === "id" ? en : en
+    const lang = locale === "id" ? en : en 
 
     return (
         <Fragment>
             <Meta title="Overlapp" />
-
             <PagesLayout>
                 <div className="form-vid w-full bg-neutral-10 dark:bg-primary-pressed md:pt-8 pt-24">
                     <div className="max-w-[1440px] mx-auto px-6 md:px-24 md:pt-28 md:pb-10 pb-48 flex flex-col md:flex-row justify-between">
                         <div className="topping">
                             <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center md:text-left pt-56 text-3xl md:text-7xl">
                                 {lang.greeting}
-                                <br></br>
+                                <br />
                                 {lang.greeting2}
-                                <br></br>
+                                <br />
                                 {lang.greeting3}
-                                <br></br>
+                                <br />
                                 {lang.greeting4}
-                                <br></br>
-                                <span className="text-transparent rounded-lg bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400 font-gilroy-bold bg-opacity-50"> Genuine </span>
+                                <br />
+                                <span className="text-transparent rounded-lg bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400 font-gilroy-bold bg-opacity-50">Genuine</span>
                                 {lang.greeting5}
                             </p>
                         </div>
@@ -49,22 +47,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
