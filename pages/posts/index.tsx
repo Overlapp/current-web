@@ -16,7 +16,7 @@ const Posts: NextPage = ({ posts }: any) => {
             <PagesLayout>
                 <div className="w-full bg-neutral-10 dark:bg-primary-pressed pb-80">
                     <div className="max-w-[1440px] mx-auto py-10 px-6 md:px-24">
-                        <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 items-start md:items-center md:text-size-10 justify-between mb-5">
+                        <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 items-start md:items-center md:te justify-between mb-5">
                                 <PageText isLight>Blog Posts</PageText>
                                 <br></br>
                                 <ParagraphText className="text-3xl">Get to Know Overlapp!</ParagraphText>
