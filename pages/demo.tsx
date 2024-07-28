@@ -12,7 +12,7 @@ const Demo: NextPage = () => {
             <Meta title="Overlapp" />
             <PagesLayout>
                 <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
-                    <p className="demo-text md:pt-60 text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
+                    <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center text-2xl md:pt-80">
                         Check out our demo and share your thoughts below! 👀👇
                     </p>
                     <div className="video-container-demo">

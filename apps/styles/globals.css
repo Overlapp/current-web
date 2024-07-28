@@ -196,8 +196,8 @@ nav {
   }
 
   .video-container-demo {
-    padding-top: 18rem;
-    margin-left: 40.3rem;
+    padding-top: 4rem;
+    margin-left: 40.9rem;
   }
 
   .formbrick {
@@ -205,13 +205,18 @@ nav {
   }
 
   .demo-text {
+    padding-top: 20rem;
+  }
+
+  .share-text {
     text-align: center;
     margin-top: -12rem;
   }
 }
 @media (max-width: 824px) {
   .video-container-demo {
-    margin-left: 2.2rem;
+    margin-left: 1.4rem;
+    padding-top: 1.5rem;
   }
 
   .video-container {
