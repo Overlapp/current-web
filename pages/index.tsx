@@ -29,8 +29,8 @@ const Home: NextPage = () => {
                                 {lang.greeting3}
                                 <br />
                                 {lang.greeting4}
-                                <br />
-                                <span className="text-transparent rounded-lg bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400 font-gilroy-bold bg-opacity-50">Genuine</span>
+                                <br></br>
+                                <span className="text-transparent rounded-lg bg-clip-text bg-gradient-to-r from-purple-600 to-blue-400 font-gilroy-bold bg-opacity-50">Genuine </span>
                                 {lang.greeting5}
                             </p>
                         </div>
