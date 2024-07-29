@@ -24,7 +24,7 @@ const Demo: NextPage = () => {
                         <ShareButtons />
                     </div>
                     <div className="formbrick">
-                        <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" height="296" width="430" style={{ border: "#a9a9a9", paddingRight: "3rem" }} title="Contact Form"></iframe>
+                        <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" height="296" width="384" style={{ border: "#a9a9a9", paddingRight: "3rem" }} title="Contact Form"></iframe>
                     </div>
                 </div>
             </PagesLayout>

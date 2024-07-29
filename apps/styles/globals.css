@@ -202,7 +202,7 @@ nav {
 
   .formbrick {
     padding-top: 3rem; 
-    padding-left: 39.7rem;
+    padding-left: 41rem;
     padding-bottom: 2rem;
   }
 
@@ -224,12 +224,9 @@ nav {
     padding-bottom: 1.3rem;
   }
 
-  .demo-text {
-    padding-left: 1.8rem;
-  }
-
   .formbrick {
-    padding-bottom: 2.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
   }
 }
 
