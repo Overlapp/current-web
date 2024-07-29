@@ -12,9 +12,7 @@ const Demo: NextPage = () => {
             <Meta title="Overlapp" />
             <PagesLayout>
                 <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
-                    <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center text-2xl md:pt-80">
-                        Check out our demo and share your thoughts below! 👀👇
-                    </p>
+                    <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center text-2xl md:pt-80">Check out our demo and share your thoughts below! 👀👇</p>
                     <div className="video-container-demo">
                         <VideoEmbed embedId="S7ryxFtkyww" />
                     </div>
@@ -26,7 +24,7 @@ const Demo: NextPage = () => {
                         <ShareButtons />
                     </div>
                     <div className="formbrick">
-                        <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" width="100%" height="300" style={{ border: "none" }} title="Contact Form"></iframe>
+                        <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" height="296" width="430" style={{ border: "#a9a9a9", paddingRight: "3rem" }} title="Contact Form"></iframe>
                     </div>
                 </div>
             </PagesLayout>
@@ -36,3 +34,4 @@ const Demo: NextPage = () => {
 }
 
 export default Demo
+

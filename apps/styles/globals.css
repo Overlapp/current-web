@@ -202,6 +202,8 @@ nav {
 
   .formbrick {
     padding-top: 3rem; 
+    padding-left: 39.7rem;
+    padding-bottom: 2rem;
   }
 
   .share-text {
@@ -209,6 +211,7 @@ nav {
     margin-top: -12rem;
   }
 }
+
 @media (max-width: 824px) {
   .video-container-demo {
     margin-left: 1.4rem;
@@ -226,7 +229,7 @@ nav {
   }
 
   .formbrick {
-    padding: 2rem;
+    padding-bottom: 2.5rem;
   }
 }
 
