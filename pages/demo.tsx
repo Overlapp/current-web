@@ -14,7 +14,7 @@ const Demo: NextPage = () => {
                 <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
                     <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center text-2xl md:pt-80">Check out our demo and share your thoughts below! 👀👇</p>
                     <div className="video-container-demo">
-                        <VideoEmbed embedId="S7ryxFtkyww" />
+                        <VideoEmbed embedId="9spO88SsPw8" />
                     </div>
                     <p className="demo-text text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
                         <br></br>
