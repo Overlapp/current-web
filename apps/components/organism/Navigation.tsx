@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react"
-import { Trans, useTranslation } from "react-i18next"
 
 import Link from "next/link"
 
@@ -17,15 +16,15 @@ function Navigation() {
     return (
         <>
             <nav className="bg-neutral-10 dark:bg-primary-pressed w-100">
-                <div className=" px-5 py-[18px] md:px-24 md:w-full ">
+                <div className="md:px-24 md:w-full">
                     <div className="navbar">
                         <div className="w-full flex items-center justify-between">
                             <Link href="/">
-                                <motion.div className="hover:cursor-pointer" initial={{ opacity: 0, translateY: -40 }} animate={{ opacity: 1, translateY: 0 }} transition={{ duration: 0.4 }}>
+                                <motion.div className="hover:cursor-pointer pt-6" initial={{ opacity: 0, translateY: -40 }} animate={{ opacity: 1, translateY: 0 }} transition={{ duration: 0.4 }}>
                                     <Image src={logo} alt="Overlapp logo" width="100"></Image>
                                 </motion.div>
                             </Link>
-                            <div className="mx-auto flex mr-10 space-between">
+                            <div className="mx-auto flex space-between">
                                 <div className="md:block">
                                     <div className="ml-16 md:ml-20 flex items-center space-x-10 relative z-20">
                                         <div className="section">
@@ -94,7 +93,7 @@ function Navigation() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="md:inline">
+                            <div className="md:inline flex pr-[150px] md:pr-[20px] pt-10 py-[18px] ">
                                 <Switcher />
                             </div>
                             <div className="navigation-content">
@@ -104,10 +103,9 @@ function Navigation() {
                                             toggleNavigation(navIsOpen)
                                             setNavIsOpen((prevValue) => !prevValue)
                                         }}
-                                        className="fas fa-solid fa-angles-left nav__toggle-btn"
+                                        className="fa-solid fa-bars nav__toggle-btn"
                                     />
                                 </div>
-
                                 <div className="nav-container">
                                     <p className="-mt-20 font-gilroy-bold text-center italic md:text-left pt-56 text-3xl md:text-7xl">
                                         <Link href="/demo">DEMO</Link>
@@ -116,13 +114,13 @@ function Navigation() {
                                         <Link href="/posts">BLOG</Link>
                                         <br></br>
                                         <br></br>
-                                        <Link href="/https://app.termly.io/policy-viewer/policy.html?policyUUID=d1aba773-0491-446b-b739-f3af98f29836">PRIVACY</Link>
+                                        <Link href="https://app.termly.io/policy-viewer/policy.html?policyUUID=d1aba773-0491-446b-b739-f3af98f29836">PRIVACY</Link>
                                         <br></br>
                                         <br></br>
-                                        <Link href="/https://app.termly.io/policy-viewer/policy.html?policyUUID=38a8003a-2bb3-40f9-a150-f89f2a4fbf87">TERMS OF USE</Link>
+                                        <Link href="https://app.termly.io/policy-viewer/policy.html?policyUUID=38a8003a-2bb3-40f9-a150-f89f2a4fbf87">TERMS OF USE</Link>
                                         <br></br>
                                         <br></br>
-                                        <Link href="/https://app.termly.io/policy-viewer/policy.html?policyUUID=fb2341c1-d489-4e3c-a7cc-6a733f9144c4">COOKIES</Link>
+                                        <Link href="https://app.termly.io/document/cookie-policy/fb2341c1-d489-4e3c-a7cc-6a733f9144c4">COOKIES</Link>
                                     </p>
                                 </div>
                             </div>
@@ -135,6 +133,15 @@ function Navigation() {
 }
 
 export default Navigation
+
+
+
+
+
+
+
+
+
 
 
 

@@ -97,7 +97,7 @@ input::-webkit-inner-spin-button {
 .toggle-container {
   text-align: center;
   cursor: pointer;
-  background-color: #301779ce;
+  background: linear-gradient(262deg, #02002469 0%, rgba(9, 11, 121, 0.597) 35%, rgba(136, 0, 255, 1) 100%);
   box-shadow: black;
 }
 
@@ -202,6 +202,11 @@ nav {
 }
 
 @media (max-width: 824px) {
+
+  .toggler {
+    text-align: center;
+  }
+
   .video-container-demo {
     margin-left: 1.4rem;
     padding-top: 1.5rem;
@@ -249,7 +254,7 @@ nav {
   width: 50px;
   position: fixed; 
   z-index: 1; 
-  left: 0;
+  right: 0;
   top: 0;
   margin-top: 1em;
   background-color: #1c0a48;
@@ -462,7 +467,6 @@ footer {
 .navigation-content {
     display: none;
 }
-   
 
     .socials__fixed-container {
         display: block;
@@ -473,7 +477,11 @@ footer {
         border-radius: 10px 0 0 10px;
         background: linear-gradient(262deg, #02002469 0%, rgba(9, 11, 121, 0.597) 35%, rgba(136, 0, 255, 1) 100%);
         z-index: 10;
-    }
+        -webkit-border-radius: 10px 0 0 10px;
+        -moz-border-radius: 10px 0 0 10px;
+        -ms-border-radius: 10px 0 0 10px;
+        -o-border-radius: 10px 0 0 10px;
+}
 }
 
 .socials__fixed-link {

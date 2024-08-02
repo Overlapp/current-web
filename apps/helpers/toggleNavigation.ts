@@ -11,12 +11,16 @@ function toggleNavigation(navIsOpen: boolean | undefined) {
 
     // Make nav content smaller or larger depending on is the nav already open or not
     navContent.style.width = navIsOpen ? "50px" : "100%"
-    navContent.style.height = navIsOpen ? "50px" : "100%"
-    navContent.style.borderRadius = navIsOpen ? "0 10px 10px 0" : "0"
-    navContent.style.marginTop = navIsOpen ? "2.7em" : "0"
+    navContent.style.height = navIsOpen ? "50px" : "100px"
+    navContent.style.marginTop = navIsOpen ? "50px" : "-1px"
+    navContent.style.paddingBottom = navIsOpen ? "50px" : "300%"
+    navContent.style.borderRadius = navIsOpen ? "10px 0 0 10px" : "0"
 
     // Rotate toggle button
-    toggleButton.style.transform = navIsOpen ? "rotate(180deg)" : "rotate(360deg)"
+    // toggleButton.style.transform = navIsOpen ? "rotate(180deg)" : "fa-angles-left rotate(360deg)"
 }
 
 export default toggleNavigation
+
+
+
