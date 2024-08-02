@@ -109,7 +109,7 @@ function Navigation() {
                                 </div>
 
                                 <div className="nav-container">
-                                    <p className="display:block font-gilroy-bold text-center italic md:text-left pt-56 text-3xl md:text-7xl">
+                                    <p className="-mt-20 font-gilroy-bold text-center italic md:text-left pt-56 text-3xl md:text-7xl">
                                         <Link href="/demo">DEMO</Link>
                                         <br></br>
                                         <br></br>
