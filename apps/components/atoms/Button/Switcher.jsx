@@ -1,4 +1,4 @@
-import useDarkSide from "@hooks/useDarkSide"
+import useDarkSide from "apps/hooks/useDarkSide"
 import { Fragment, useState } from "react"
 import { DarkModeSwitch } from "react-toggle-dark-mode"
 

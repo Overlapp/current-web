@@ -2,9 +2,9 @@ import { Fragment } from "react"
 import type { NextPage } from "next"
 import VideoEmbed from "../apps/components/VideoEmbed"
 import { Meta } from "@modules/Meta"
-import PagesLayout from "@layouts/PagesLayout"
-import ShareButtons from "@components/ShareButtons"
-import Footer from "@components/organism/Footer"
+import PagesLayout from "apps/layouts/PagesLayout"
+import ShareButtons from "apps/components/ShareButtons"
+import Footer from "apps/components/organism/Footer"
 
 const Demo: NextPage = () => {
     return (

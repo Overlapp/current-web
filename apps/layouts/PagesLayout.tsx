@@ -1,6 +1,6 @@
 import { Fragment } from "react"
-import Navigation from "@components/organism/Navigation"
-import { CrispProvider } from "@components/Crisp-Provider"
+import Navigation from "apps/components/organism/Navigation"
+import { CrispProvider } from "apps/components/Crisp-Provider"
 
 const PagesLayout = ({ children }: any) => {
     return (

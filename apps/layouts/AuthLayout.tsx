@@ -1,4 +1,4 @@
-import NavbarAuth from "@components/NavbarAuth"
+import NavbarAuth from "apps/components/NavbarAuth"
 import { Fragment } from "react"
 
 const AuthLayout = ({ children }: any) => {

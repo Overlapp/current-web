@@ -94,6 +94,13 @@ input::-webkit-inner-spin-button {
 
 /* --- NAVIGATION --- */
 
+.toggle-container {
+  text-align: center;
+  cursor: pointer;
+  background-color: #301779ce;
+  box-shadow: black;
+}
+
 .nav-link {
     color: #beabff;
     text-decoration: none;
@@ -155,7 +162,7 @@ nav {
 @media (max-width: 926px) {
     nav {
         padding-top: 3.5rem;
-        font-size: 3rem;
+        font-size: 2rem;
         padding-right: 1rem;
     }
 
@@ -166,24 +173,6 @@ nav {
     }
 }
 
-@media (min-width: 650px) {
-    nav {
-        display: flex;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-
-    .nav {
-        padding: 0;
-        display: flex;
-        align-items: flex-end;
-        margin-right: 4rem;
-    }
-
-    .navbar-brand {
-        padding-left: 5.4rem;
-    }
-}
 
 @media (min-width: 800px) {
 .video-container {
@@ -255,7 +244,43 @@ nav {
     text-shadow: 2px 2px #130d0d;
 }
 
+.navigation-content {
+  height: 50px;
+  width: 50px;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  margin-top: 1em;
+  background-color: #1c0a48;
+  color: white;
+  opacity: 95%;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  overflow-x: hidden; 
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 800px) {
+  .nav-item {
+    margin: 0 1em;
+  }
+
+  .nav-link {
+    margin: 1em 0.5em;
+  }
+}
+
 @media screen and (max-width: 800px) {
+
+    #blog-link {
+        display: none;
+    }
+
+    #demo-link {
+        display: none;
+    }
     .contact-btn {
         display: none;
     }
@@ -334,6 +359,8 @@ nav {
     }
 }
 
+
+
 @media screen and (max-width: 800px) {
     .navbar {
         text-align: center;
@@ -352,6 +379,7 @@ nav {
 }
 
 @media screen and (min-width: 1000px) {
+
     body {
         height: 100%;
     }
@@ -413,6 +441,8 @@ footer {
     font-size: 1.2rem;
 }
 
+
+
 #copyright {
     font-family: "Gilroy", sans-serif;
     color: #7e7ef8;
@@ -427,6 +457,13 @@ footer {
 }
 
 @media (min-width: 650px) {
+
+  
+.navigation-content {
+    display: none;
+}
+   
+
     .socials__fixed-container {
         display: block;
         position: fixed;
@@ -456,3 +493,4 @@ footer {
 .socials__fixed-icon:hover {
     color: #ab8df0;
 }
+

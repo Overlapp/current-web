@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import { ITextProps } from "@interfaces/index"
+import { ITextProps } from "apps/interfaces/index"
 
 export const HeadingText: React.FC<ITextProps> = ({ children, isLight, className }) => {
     return (

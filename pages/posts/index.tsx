@@ -4,10 +4,10 @@ import { Fragment } from "react"
 import { NextPage } from "next/types"
 import matter from "gray-matter"
 import { Meta } from "@modules/Meta"
-import PagesLayout from "@layouts/PagesLayout"
-import PostCard from "@components/organism/Cards/PostCard"
-import { PageText, ParagraphText } from "@components/atoms/Text"
-import Footer from "@components/organism/Footer"
+import PagesLayout from "apps/layouts/PagesLayout"
+import PostCard from "apps/components/organism/Cards/PostCard"
+import { PageText, ParagraphText } from "apps/components/atoms/Text"
+import Footer from "apps/components/organism/Footer"
 
 const Posts: NextPage = ({ posts }: any) => {
     return (
