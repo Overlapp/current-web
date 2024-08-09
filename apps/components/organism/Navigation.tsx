@@ -114,7 +114,7 @@ function Navigation() {
                                         </Link>
                                         <br></br>
                                         <br></br>
-                                        <div className="pl-44">
+                                        <div className="pl-[10rem]">
                                             <Switcher />
                                         </div>
                                     </p>
