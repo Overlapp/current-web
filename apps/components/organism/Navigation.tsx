@@ -15,7 +15,7 @@ function Navigation() {
 
     return (
         <>
-            <nav className="bg-neutral-10 dark:bg-primary-pressed w-100 pt-16">
+            <nav className="bg-neutral-10 dark:bg-primary-pressed w-100 pt-16 md:pt-3">
                 <div className="md:px-24 md:w-full">
                     <div className="navbar">
                         <div className="w-full flex items-center justify-between">
