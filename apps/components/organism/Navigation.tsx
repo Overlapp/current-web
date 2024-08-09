@@ -106,10 +106,10 @@ function Navigation() {
                                 </div>
                                 <div className="nav-container">
                                     <p className="-mt-26 font-gilroy-bold text-center italic md:text-left pt-56 text-3xl md:text-7xl">
-                                        <Link href="/demo" className="flex pt-4 pl-40">
+                                        <Link href="/demo" className="flex pt-4 pl-[150px]">
                                             DEMO
                                         </Link>
-                                        <Link href="/posts" className="flex pt-14 pl-40">
+                                        <Link href="/posts" className="flex pt-14 pl-[150px]">
                                             BLOG
                                         </Link>
                                         <br></br>
@@ -129,6 +129,7 @@ function Navigation() {
 }
 
 export default Navigation
+
 
 
 
