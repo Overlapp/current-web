@@ -106,15 +106,15 @@ function Navigation() {
                                 </div>
                                 <div className="nav-container">
                                     <p className="-mt-26 font-gilroy-bold text-center italic md:text-left pt-56 text-3xl md:text-7xl">
-                                        <Link href="/demo" className="flex pt-4 pl-36">
+                                        <Link href="/demo" className="flex pt-4 pl-40">
                                             DEMO
                                         </Link>
-                                        <Link href="/posts" className="flex pt-14 pl-36">
+                                        <Link href="/posts" className="flex pt-14 pl-40">
                                             BLOG
                                         </Link>
                                         <br></br>
                                         <br></br>
-                                        <div className="pl-[10rem]">
+                                        <div className="pl-44">
                                             <Switcher />
                                         </div>
                                     </p>
