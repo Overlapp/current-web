@@ -18,7 +18,7 @@ const Demo: NextPage = () => {
                     </div>
                     <p className="demo-text text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
                         <br></br>
-                        Feel free to share!
+                        Share with a friend!
                     </p>
                     <div className="md:text-center">
                         <ShareButtons />
