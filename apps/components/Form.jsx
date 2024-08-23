@@ -24,7 +24,7 @@ const Form = (props) => {
     return (
         <div>
             <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
-                <div className="formtext">Get your fun together with Overlapp. Join now!</div>
+                <div className="formtext">Sign up now for early access!</div>
                 <br></br>
                 <div id="hubspotForm" className="w-full"></div>
                 <br></br>
