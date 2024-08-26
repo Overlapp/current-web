@@ -171,6 +171,10 @@ nav {
         padding: 2.1rem;
         text-align: center;
     }
+
+    /* #form-demo {
+        padding-top: -5rem;
+    } */
 }
 
 
@@ -202,8 +206,8 @@ nav {
 }
 
 @media (max-width: 824px) {
-
-  .toggler {
+    
+.toggler {
     text-align: center;
   }
 
@@ -233,6 +237,10 @@ nav {
 .form-container {
     margin-top: -16.2rem;
     color: white;
+}
+
+#demo-form {
+    margin: 10rem;
 }
 
 #hubspotForm {
@@ -286,6 +294,7 @@ nav {
     #demo-link {
         display: none;
     }
+
     .contact-btn {
         display: none;
     }
@@ -313,15 +322,6 @@ nav {
     .topping button {
         margin-top: 20px;
         margin-left: 88px;
-    }
-
-    .form {
-        margin-top: 2rem;
-        font-size: 18px;
-    }
-
-    .form-container {
-        padding-top: 1rem;
     }
 
     .formtext {
