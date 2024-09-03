@@ -4,36 +4,16 @@
     font-family: "Gilroy", sans-serif;
 }
 
-.login {
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-}
-
-.register {
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-}
-
 @media screen and (max-width: 768px) {
-    .hero,
-    .register {
-        background-position: center;
+    .hero
+     {
+        /* background-position: center; */
     }
 
     .main-links {
         margin-top: 50px;
         display: grid;
         margin-right: 1.3rem;
-    }
-    
-    #blog-link {
-     /* margin-left: 40px; */
-    }
-
-    #demo-link {
-        /* margin-right: -10px; */
     }
 }
 
@@ -402,24 +382,6 @@ footer {
     text-align: center;
     min-height: 150px;
     margin-top: 4rem;
-}
-
-.footer__cta {
-    font-size: 4rem;
-    padding-bottom: 1em;
-}
-
-.footer__cta a {
-    background: linear-gradient(currentColor 0 0) -20% 100% / var(--p, 10%) 3px no-repeat;
-    transition: 0.5s 0.3s cubic-bezier(0, 1.25, 1, 1.8), background-size 0.3s;
-    text-decoration: none;
-    color: var(--secondary-theme-color);
-}
-
-.footer__cta a:hover {
-    background-position: 50% 100%;
-    --p: 50%;
-    transition: 0.5s cubic-bezier(0, 1.25, 1, 1.8), background-size 0.2s 0.7s;
 }
 
 .social-link {
