@@ -15,7 +15,7 @@ const Demo: NextPage = () => {
                 <div className="bg-gradient-to-r bg-gradient-to-r from-transparent via-indigo-800 to-transparent dark:bg-slate-900 form-container">
                     <p className="text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center text-2xl md:pt-80">Check out our demo and share your thoughts below! 👀👇</p>
                     <div className="video-container-demo">
-                        <VideoEmbed embedId="Q5aV53SSAg0?si=5xcTcav9Esuj3mOi" />
+                        <VideoEmbed embedId="D1FBlOfNBzI?feature=share" />
                     </div>
                     <div className="formbrick">
                         <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" height="296" width="384" style={{ border: "#a9a9a9", paddingRight: "3rem" }} title="Contact Form"></iframe>
