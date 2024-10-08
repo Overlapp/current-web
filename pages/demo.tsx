@@ -20,11 +20,11 @@ const Demo: NextPage = () => {
                     <div className="formbrick">
                         <iframe src="https://app.formbricks.com/s/clynoypwn000cy5gss0uhi1so" height="296" width="384" style={{ border: "#a9a9a9", paddingRight: "3rem" }} title="Contact Form"></iframe>
                     </div>
-                    <p className="demo-text text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 text-2xl">
+                    <p className="demo-text text-primary-pressed dark:text-neutral-10 font-gilroy-bold text-center mr-4 pt-6 pb-6 -mt-6 text-2xl">
                         <br></br>
                         Share with a friend!
                     </p>
-                    <div className="md:text-center">
+                    <div className="pb-6 md:text-center">
                         <ShareButtons />
                     </div>
                 </div>
