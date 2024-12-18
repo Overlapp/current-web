@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 const useDarkSide = () => {
-    const [theme, setTheme] = useState("dark")
+    const [theme, setTheme] = useState("light")
     const colorTheme = theme === "dark" ? "light" : "dark"
 
     useEffect(() => {
