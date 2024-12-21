@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 import type { NextPage } from "next"
-import VideoEmbed from "../apps/components/VideoEmbed"
+// import VideoEmbed from "../apps/components/VideoEmbed"
 import { useRouter } from "next/router"
 import { Meta } from "@modules/Meta"
 import PagesLayout from "apps/layouts/PagesLayout"
