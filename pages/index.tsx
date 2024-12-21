@@ -36,7 +36,8 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                     <div className="video-container">
-                        <VideoEmbed embedId="D1FBlOfNBzI?feature=share" />
+                        {/* <VideoEmbed embedId="D1FBlOfNBzI?feature=share" /> */}
+                        <img src="/images/app.gif" alt="overlapp app showcase" />
                     </div>
                 </div>
                 <Form />
